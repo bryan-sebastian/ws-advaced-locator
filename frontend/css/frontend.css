@@ -1,0 +1,37 @@
+.ws-container {
+	position: relative;
+}
+.ws-container .ws-preloader {
+	background: rgba( 255, 255, 255, 0.5 ) url( '../imgs/preloader.gif' ) center/auto no-repeat;
+	display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+#ws-location-list #ws-categories,
+#ws-location-list #ws-search,
+#ws-location-list #ws-location {
+    background: #eee;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#ws-location-list #ws-categories {
+    height: auto;
+	width: 100%;
+}
+#ws-location-list #ws-location ul {
+    list-style: none;
+	margin-bottom: 0;
+    padding: 0;
+}
+#ws-location-list #ws-location li {
+    margin: 5px 0;
+}
+#ws-location-list #ws-location li a {
+    color: #333;
+}

@@ -1,0 +1,48 @@
+#ws-locator form > h2:first-child {
+	font-size: 27px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#ws-locator-instruction table {
+    background: #ddd;
+    border-radius: 3px;
+	padding: 10px;
+}
+#ws-locator-table,
+#ws-locator-table td:last-child input,
+#ws-locator-table td:last-child textarea {
+	width: 100%;
+}
+#ws-locator-table td:first-child {
+	vertical-align: top;
+	width: 120px;
+}
+
+#ws-locator td input[type="text"],
+#ws-locator td input[type="number"],
+#ws-locator td textarea {
+	width: 520px;
+}
+#ws-locator td p {
+	padding-left: 10px;
+}
+#select-image-container {
+    padding-top: 40px;
+    position: relative;
+}
+#select-image-container .action-image-upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#select-image-container .action-image-upload a {
+    cursor: pointer;
+    background: #0073aa;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+}
+#select-image-container .action-image-upload a#remove-image {
+	background: #bd1313;
+}
